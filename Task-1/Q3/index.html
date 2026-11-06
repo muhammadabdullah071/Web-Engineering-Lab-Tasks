@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Array Methods</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Product Array Methods</h1>
+    <p class="intro">
+      This mini application demonstrates JavaScript's
+      <code>map()</code>, <code>filter()</code>, and <code>reduce()</code>
+      methods using an array of product objects.
+    </p>
+
+    <section class="card">
+      <h2>Products</h2>
+      <div id="products" class="product-grid"></div>
+    </section>
+
+    <section class="results">
+      <article class="card">
+        <h2>1. map()</h2>
+        <p>Product names extracted from the array:</p>
+        <p id="mapped-products" class="output"></p>
+      </article>
+
+      <article class="card">
+        <h2>2. filter()</h2>
+        <p>Products with a price greater than $50:</p>
+        <div id="filtered-products" class="output"></div>
+      </article>
+
+      <article class="card total-card">
+        <h2>3. reduce()</h2>
+        <p>Total price of all products:</p>
+        <p id="total-price" class="total"></p>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

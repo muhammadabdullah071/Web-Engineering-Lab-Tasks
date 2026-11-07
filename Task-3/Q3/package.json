@@ -1,0 +1,16 @@
+{
+  "name": "q3-health-check-api",
+  "version": "1.0.0",
+  "description": "Health check API endpoint for Web Engineering Lab Task 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
